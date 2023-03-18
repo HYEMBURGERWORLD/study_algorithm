@@ -16,7 +16,7 @@ function solution(new_id) {
         answer[answer.length-1] = "";
         answer = answer.join("");
     }
-    // 5단계 answer = "" 일 경우, new_id length 만큼 a를 넣는다.
+    // 5단계 answer = "" 일 경우, a를 넣는다.
     answer === "" ? answer = "a" : 0;
     
     // 6단계 16자 이상이면 15개까지만 남기고 나머지 제거 / 제거 후 .가 끝에 위치하면 .를 제거
